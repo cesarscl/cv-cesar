@@ -1,7 +1,8 @@
-## GitHub Pages
+## Acceso al proyecto
 
-Sitio publicado: https://cesarscl.github.io/
+Puedes visitar el proyecto publicado en el siguiente enlace:
 
+[https://cesarscl.github.io/](https://cesarscl.github.io/)
 
 ## Fork
 
@@ -65,7 +66,6 @@ El sitio incluye secciones de resumen profesional, competencias, resultados, exp
 - `landing_bootstrap`: landing page turistica desarrollada con Bootstrap.
 - `landing_cupon`: proyecto tipo landing inspirado en cupones.
 - `flexbox_iguana`: pagina construida con Flexbox para practicar layout y distribucion visual.
-
 
 
 

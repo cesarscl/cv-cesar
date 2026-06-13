@@ -9,14 +9,19 @@
     <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top app-sidebar">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#inicio">Cesar Ormeno</a>
+        <a class="navbar-brand fw-bold" href="#inicio">
+          <span class="logo-mark">CO</span>
+          <span>Cesar Ormeno</span>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="menuPrincipal">
           <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
             <li class="nav-item"><a class="nav-link" href="#resumen">Resumen</a></li>
             <li class="nav-item"><a class="nav-link" href="#competencias">Competencias</a></li>
             <li class="nav-item"><a class="nav-link" href="#resultados">Resultados</a></li>
@@ -50,6 +55,38 @@
     </header>
 
     <main>
+      <section id="galeria" class="section gallery-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Galeria principal</p>
+            <h2>Proyectos visuales</h2>
+          </div>
+          <div class="gallery-grid">
+            <article class="gallery-item gallery-item-wide">
+              <img src="assets/img/landing-bootstrap.jpg" alt="Landing turistica desarrollada con Bootstrap">
+              <div class="gallery-caption">
+                <span>Bootstrap</span>
+                <h3>Landing turistica</h3>
+              </div>
+            </article>
+            <article class="gallery-item">
+              <img src="assets/img/landing-cupon.jpg" alt="Landing de cupones y ofertas">
+              <div class="gallery-caption">
+                <span>HTML</span>
+                <h3>Cupones</h3>
+              </div>
+            </article>
+            <article class="gallery-item">
+              <img src="assets/img/flexbox-iguana.jpg" alt="Proyecto visual de iguanas con Flexbox">
+              <div class="gallery-caption">
+                <span>Flexbox</span>
+                <h3>Iguana page</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section id="resumen" class="section">
         <div class="container">
           <div class="section-heading">
@@ -309,8 +346,22 @@
     </main>
 
     <footer>
-      <div class="container">
-        <p>© 2026 Cesar Ormeno Contreras - Curriculum Vitae</p>
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="#inicio">
+            <span class="logo-mark">CO</span>
+            <span>Cesar Ormeno</span>
+          </a>
+          <p>© 2026 Cesar Ormeno Contreras - Curriculum Vitae</p>
+        </div>
+        <div class="footer-contact">
+          <a href="mailto:cesar.eoc@gmail.com">cesar.eoc@gmail.com</a>
+          <a href="tel:+56977299542">+56 9 7729 9542</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/cesar-ormeno-contreras-40868240" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/cesarscl" target="_blank" rel="noopener">GitHub</a>
+        </div>
       </div>
     </footer>
 
